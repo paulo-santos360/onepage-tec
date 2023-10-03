@@ -160,7 +160,7 @@ p{
     align-items: center;
     align-content: flex-start;
     width: 80%;
-    height: 500px;
+    height: 450px;
     margin: 0 auto;
     flex-direction: row;
 }
@@ -171,7 +171,7 @@ p{
 }
 
 .color-1{
-    background-color: #140310;
+    background-color: var(--clr-primary-3);
 }
 
 
@@ -273,11 +273,23 @@ nav {
     color: #ffffff;
 }
 
+.benner-meio{
+    background-color: #2A3145;
+    opacity: 0.5;
+    margin: 10px;
+    padding: 20px;
+}
+
+.banner-txt{
+    width: 300px;
+    color: #D600EF;
+    font-size: 20px;
+}
+
 .color-2{
     background-image: url("../img/mulher-usando-simulador-de-realidade-virtual.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
 }
 
 
