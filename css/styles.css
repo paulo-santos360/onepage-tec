@@ -258,6 +258,17 @@ p{
     background-color: var(--clr-primary-3);
 }
 
+/* Baner e Logos*/
+.txt-banner{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.baner-logo{
+    background-color: var(--clr-primary-3);
+    height: 40vh;
+}
 
 /*Media*/
 @media screen and (min-width: 800px) {
