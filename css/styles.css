@@ -35,9 +35,10 @@ ul {
 a {
   text-decoration: none;
 }
-img:not(.logo) {
+/* img:not(.logo) {
   width: 100%;
-}
+} */
+
 img {
   display: block;
 }
@@ -106,7 +107,7 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 40px;
+  height: 100px;
 }
 .links a {
   color: var(--clr-grey-3);
@@ -178,6 +179,7 @@ nav {
     background-image: url("../img/mulher-usando-simulador-de-realidade-virtual.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    padding: 50px 50px; 
 }
 
 /*  global classes */
@@ -291,7 +293,7 @@ p{
   
 @media screen and (min-width: 992px) {
     .section-center {
-      width: 95vw;
+      width: 100vw;
     }
 }
 
