@@ -258,6 +258,12 @@ p{
     background-color: var(--clr-primary-3);
 }
 
+/* Sobre */
+.img-centro{
+    width: 497px;
+    height: 268px;
+}
+
 /* Baner e Logos*/
 .txt-banner{
     color: #ffffff;
@@ -269,6 +275,24 @@ p{
     background-color: var(--clr-primary-3);
     height: 40vh;
 }
+
+.baner-center{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row; 
+}
+
+.baner-center img{
+    width: 126px;
+    height: 100px;
+}
+
+
 
 /*Media*/
 @media screen and (min-width: 800px) {
