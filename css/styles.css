@@ -70,18 +70,7 @@ p {
   color: var(--clr-grey-5);
 }
 
-main {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-}
-
-
-/*
-=============== 
-Navbar
-===============
-*/
+/* Navbar*/
 nav {
   background: var(--clr-primary-1);
   color: var(--clr-primary-4);
@@ -92,7 +81,6 @@ nav {
   justify-content: space-between;
   color: var(--clr-primary-4);
   background: var(--clr-primary-1);
-  /* padding: 2rem; */
 }
 .nav-toggle {
   font-size: 30px;
@@ -110,7 +98,7 @@ nav {
   height: 100px;
 }
 .links a {
-  color: var(--clr-grey-3);
+  color: var(--clr-primary-4);
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -119,8 +107,7 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -144,36 +131,17 @@ nav {
     align-items: center;
     align-content: flex-start;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     overflow: auto;
     flex-direction: row;
 }
 
 .FlexContainer div {
-    width: 900px;
+    position: relative;
+    left: -185px;
+    width: 700px;
     height: 300px;
 } 
-
-.none{
-    display: none;
-}
-
-.banner-txt{
-    font-size: 26px;
-    color: #ffffff;
-}
-
-.benner-meio{
-    background-color: #2A3145;
-    opacity: 0.5;
-    margin: 10px;
-    padding: 20px;
-}
-
-.banner-txt{
-    color: #D600EF;
-    font-size: 25px;
-}
 
 .color-2{
     background-image: url("../img/mulher-usando-simulador-de-realidade-virtual.jpg");
@@ -182,24 +150,14 @@ nav {
     padding: 50px 50px; 
 }
 
-/*  global classes */
-
+/* Baner Principal*/
 .section-center {
     background-image: url("../img/home-tec.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     opacity: 1.4;
 }
 
-.banner{
-    position: relative;
-    left: -108px;
-}
-
-.top-meio{
-    padding-left: 20px;
-}
-  
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-2);
@@ -215,8 +173,8 @@ nav {
   border-radius: var(--radius);
 }
 .btn:hover {
-  color: var(--clr-green-dark);
-  background: var(--clr-black);
+  color: var(--clr-primary-4);
+  background: transparent;
 }
 /* section */
 .section {
@@ -240,7 +198,7 @@ p{
 .container{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: flex-start;
     width: 80%;
@@ -254,12 +212,6 @@ p{
     margin: 0 auto;
 }
 
-/* Sobre */
-.img-centro{
-    width: 497px;
-    height: 268px;
-}
-
 /* Baner e Logos*/
 .txt-banner{
     color: #ffffff;
@@ -268,7 +220,7 @@ p{
 }
 
 .baner-logo{
-    background-color: var(--clr-primary-3);
+   background: linear-gradient(to right, #23072F, #140310);
     height: 40vh;
 }
 
@@ -286,6 +238,47 @@ p{
 .baner-center img{
     width: 126px;
     height: 100px;
+}
+
+.benner-meio{
+  background-color: #2A3145;
+  opacity: 0.5;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* .banner{
+  position: relative;
+  left: -108px;
+}  */
+
+/* Video */
+iframe{
+  border: 2px solid #D600EF;
+}
+
+/* colorBaner D3 Imagem */
+.top-meio{
+  width: 45%;
+}
+
+.banner-txt{
+  font-size: 28px;
+  color: var(--clr-primary-2);
+}
+
+/* Imagem D3 */
+.img-centro{
+  width: 497px;
+  height: 268px;
+  border: 2px solid #D600EF;
+}
+
+#cena1{
+  perspective: 500px;
+}
+.cena1b{
+  transform: rotateY(-17deg);
 }
 
 /* colorBaner */
@@ -308,6 +301,10 @@ footer{
 
 footer i{
   padding: 10px;
+}
+
+footer i:hover{
+  color: var(--clr-primary-2);
 }
 
 footer h2{
