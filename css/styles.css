@@ -205,13 +205,13 @@ nav {
   background: var(--clr-primary-2);
   color: var(--clr-primary-4);
   padding: 20px 20px;
+  margin: 14px 14px;
   letter-spacing: var(--spacing);
   display: inline-block;
   transition: var(--transition);
   font-size: 0.875rem;
   border: 2px solid var(--clr-primary-4);
   cursor: pointer;
- /*  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
   border-radius: var(--radius);
 }
 .btn:hover {
@@ -254,10 +254,6 @@ p{
     margin: 0 auto;
 }
 
-.color-1{
-    background-color: var(--clr-primary-3);
-}
-
 /* Sobre */
 .img-centro{
     width: 497px;
@@ -292,6 +288,37 @@ p{
     height: 100px;
 }
 
+/* colorBaner */
+.baner-end{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.baner-end h3{
+  color: #ffffff;
+}
+
+
+/* Footer */
+footer{
+    background: linear-gradient(to right, #23072F, #140310);
+    
+}
+
+footer i{
+  padding: 10px;
+}
+
+footer h2{
+  text-align: center;
+  font-size: 25px;
+}
+
+.colorBaner{
+  background: linear-gradient(to right, #23072F, #140310);
+
+}
 
 
 /*Media*/
