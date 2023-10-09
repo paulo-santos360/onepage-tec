@@ -106,7 +106,6 @@ nav {
 }
 .nav-toggle:hover {
   color: var(--clr-primary-1);
-  transform: rotate(90deg);
 }
 .logo {
   height: 100px;
@@ -134,6 +133,12 @@ nav {
 }
 .show-links {
   height: 10rem;
+  margin-left: 20px;
+}
+
+.fa-solid{
+  color: var(--clr-primary-4);
+  margin-left: -61px;
 }
 
 
@@ -320,7 +325,7 @@ video{
 
 /* colorBaner */
 .baner-end{
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -356,7 +361,7 @@ footer h2{
 
 
 /*Media*/
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
     h1 {
       font-size: 4rem;
     }
@@ -385,13 +390,13 @@ footer h2{
     p{
       color: #ffffff;
     }
-  }
+  } */
   
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     .section-center {
       width: 100vw;
     }
-}
+} */
 
 @media screen and (min-width: 800px) {
   .nav-center {
@@ -430,5 +435,50 @@ footer h2{
   }
   .social-icons a:hover {
     color: var(--clr-primary-7);
+  }
+
+  .container-video{
+
+  }
+
+  .video{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 800px){
+
+  /* Accordion */
+
+  .containerb{
+    width: 80%;
+    margin: 0 auto;
+  }
+.accordion-txt{
+  font-size: 22px;
+}
+.accordion{
+  font-size: 17px;
+}
+  .baner-end{
+    width: 300px;
+    height: 651px;
+    margin-top: -27px;
+  }
+  .banner-txt{
+    font-size: 20px;
+    margin-top: 123px;
+    margin-bottom: 2.75rem;
+  }
+  .btn{
+    padding: 8px 20px;
+    margin: -26px 14px;
+  }
+  .baner-end h2{
+    margin-bottom: 1.75rem;
+  }
+
+  footer h2{
+    font-size: 16px;
   }
 }
