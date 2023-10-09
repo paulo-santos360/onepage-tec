@@ -3,8 +3,8 @@
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: #140310;
-  --clr-primary-2: #D600EF;
-  --clr-primary-3: #23072F;
+  --clr-primary-2: #d600ef;
+  --clr-primary-3: #23072f;
   --clr-primary-4: #ffffff;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
@@ -70,18 +70,17 @@ p {
   color: var(--clr-grey-5);
 }
 
-h1
-{
- line-height: 1;
- font-size: 30px;
- text-transform: uppercase;
- color: #D600EF;
+h1 {
+  line-height: 1;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #d600ef;
 }
-h2{
- color: #ffffff;
+h2 {
+  color: #ffffff;
 }
-p{
- color: #ffffff;
+p {
+  color: #ffffff;
 }
 
 /* Navbar*/
@@ -136,39 +135,38 @@ nav {
   margin-left: 20px;
 }
 
-.fa-solid{
+.fa-solid {
   color: var(--clr-primary-4);
   margin-left: -61px;
 }
 
-
 /*Banner Principal */
 .FlexContainer {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
-    width: 100%;
-    height: 80vh;
-    overflow: auto;
-    flex-direction: row;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  width: 100%;
+  height: 80vh;
+  overflow: auto;
+  flex-direction: row;
 }
 
 .FlexContainer div {
-    position: relative;
-    left: -185px;
-    width: 700px;
-    height: 300px;
-} 
+  position: relative;
+  left: -185px;
+  width: 700px;
+  height: 300px;
+}
 
 /* Baner Principal*/
 .section-center {
-    background-image: url("../img/homemtec.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    opacity: 1.4;
-    height: 80vh;
+  background-image: url("../img/homemtec.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  opacity: 1.4;
+  height: 80vh;
 }
 
 .btn {
@@ -194,84 +192,82 @@ nav {
   padding: 5rem 0;
 }
 
-.container{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: flex-start;
-    width: 80%;
-    height: 450px;
-    margin: 0 auto;
-    flex-direction: row;
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  width: 80%;
+  height: 450px;
+  margin: 0 auto;
+  flex-direction: row;
 }
 
-.baner-logo{
-   background: linear-gradient(to right, #23072F, #140310);
-    height: 40vh;
+.baner-logo {
+  background: linear-gradient(to right, #23072f, #140310);
+  height: 40vh;
 }
 
-.baner-center{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: center;
-    width: 80%;
-    margin: 0 auto;
-    flex-direction: row; 
+.baner-center {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: row;
 }
-
 
 /* Video */
-video{
-  border: 2px solid #D600EF;
+video {
+  border: 2px solid #d600ef;
 }
 
 /*Mulher IA */
-.color-2{
+.color-2 {
   background-image: url("../img/mulher-usando-simulador-de-realidade-virtual.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  padding: 50px 50px; 
+  padding: 50px 50px;
 }
-.benner-meio{
-  background-color: #2A3145;
+.benner-meio {
+  background-color: #2a3145;
   opacity: 0.5;
   margin: 10px;
   padding: 20px;
 }
 
-
 /* Galerias Logos */
-.txt-banner{
+.txt-banner {
   color: #ffffff;
   text-align: center;
   padding-top: 70px;
 }
 
-.baner-center img{
+.baner-center img {
   width: 126px;
   height: 100px;
 }
 
 /* Accordion conteudo */
-.acordion-text{
-  background: linear-gradient(to right, #23072F, #140310);
-  padding-top: 40px; 
+.acordion-text {
+  background: linear-gradient(to right, #23072f, #140310);
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.containerb{
+.containerb {
   width: 40%;
   margin: 0 auto;
 }
 
-.accordion-slx{
+.accordion-slx {
   margin-bottom: 10px;
 }
 
-.accordion-txt{
+.accordion-txt {
   color: var(--clr-primary-2);
   font-size: 26px;
   text-align: center;
@@ -280,7 +276,7 @@ video{
 }
 .accordion {
   background-color: #140310;
-  color: #D600ef;
+  color: #d600ef;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -294,70 +290,68 @@ video{
 .panel {
   padding: 0 18px;
   display: none;
-  background: linear-gradient(to right, #23072F, #140310);
+  background: linear-gradient(to right, #23072f, #140310);
   color: #ffffff;
   overflow: hidden;
 }
 
 /* colorBaner D3 Imagem */
-.top-meio{
+.top-meio {
   width: 45%;
 }
 
-.banner-txt{
+.banner-txt {
   font-size: 28px;
   color: var(--clr-primary-2);
 }
 
 /* Imagem D3 */
-.img-centro{
+.img-centro {
   width: 497px;
   height: 268px;
-  border: 2px solid #D600EF;
+  border: 2px solid #d600ef;
 }
 
-#cena1{
+#cena1 {
   perspective: 500px;
 }
-.cena1b{
+.cena1b {
   transform: rotateY(-17deg);
 }
 
 /* colorBaner */
-.baner-end{
+.baner-end {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-.baner-end h3{
+.baner-end h3 {
   color: #ffffff;
 }
 
-
 /* Footer */
-footer{
-    background: linear-gradient(to right, #23072F, #140310);
-    
+footer {
+  background: linear-gradient(to right, #23072f, #140310);
 }
 
-footer i{
+footer i {
   padding: 10px;
 }
 
-footer i:hover{
+footer i:hover {
   color: var(--clr-primary-2);
 }
 
-footer h2{
+footer h2 {
   text-align: center;
   font-size: 25px;
 }
 
-.colorBaner{
-  background: linear-gradient(to right, #23072F, #140310);
-
+.colorBaner {
+  background: linear-gradient(to right, #23072f, #140310);
 }
+
 
 
 /*Media*/
@@ -391,7 +385,7 @@ footer h2{
       color: #ffffff;
     }
   } */
-  
+
 /* @media screen and (min-width: 992px) {
     .section-center {
       width: 100vw;
@@ -437,48 +431,62 @@ footer h2{
     color: var(--clr-primary-7);
   }
 
-  .container-video{
-
+  .container-video {
   }
 
-  .video{
+  .video {
     width: 300px;
   }
+  
 }
 
-@media screen and (max-width: 800px){
-
+@media screen and (max-width: 800px) {
+   /* Imagem D3 */
+   
+   .container{
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+   }
+   .top-meio{
+    width: 100%;
+    margin-top: -71px;
+   }
+   .img-centro{
+    width: 296px;
+    margin-top: 298px;
+   }
   /* Accordion */
-
-  .containerb{
-    width: 80%;
-    margin: 0 auto;
+  .containerb {
+   width: 80%;
+    margin: 0 auto; 
+   
   }
-.accordion-txt{
-  font-size: 22px;
-}
-.accordion{
-  font-size: 17px;
-}
-  .baner-end{
+  .accordion-txt {
+    font-size: 22px;
+    padding-top: 231px;
+  }
+  .accordion {
+    font-size: 17px;
+  }
+  .baner-end {
     width: 300px;
     height: 651px;
-    margin-top: -27px;
+    margin-top: -138px;
   }
-  .banner-txt{
+  .banner-txt {
     font-size: 20px;
     margin-top: 123px;
     margin-bottom: 2.75rem;
   }
-  .btn{
+  .btn {
     padding: 8px 20px;
     margin: -26px 14px;
   }
-  .baner-end h2{
+  .baner-end h2 {
     margin-bottom: 1.75rem;
   }
 
-  footer h2{
+  footer h2 {
     font-size: 16px;
   }
 }
