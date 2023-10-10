@@ -34,10 +34,6 @@ img/gif.gif
 - CSS3
 - JavaScript
 
-## Autor 👤
-
-[Seu Nome/Autor](https://github.com/seu-nome)
-
 ## Licença 📝
 
 Este projeto é licenciado sob a [Licença MIT](LICENSE).
