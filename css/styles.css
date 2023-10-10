@@ -221,11 +221,34 @@ nav {
 }
 
 /* Video */
+.container-video {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  width: 80%;
+  height: 450px;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
 video {
   border: 2px solid #d600ef;
 }
 
 /*Mulher IA */
+.vision {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  width: 80%;
+  height: 450px;
+  margin: 0 auto;
+  flex-direction: row;
+}
 .color-2 {
   background-image: url("../img/mulher-usando-simulador-de-realidade-virtual.jpg");
   background-position: center;
@@ -434,15 +457,83 @@ footer h2 {
   .container-video {
   }
 
-  .video {
-    width: 300px;
-  }
+  
   
 }
 
 @media screen and (max-width: 800px) {
+
+  /* Video */
+  .container-video{
+    width: 100%;
+    height: 527px;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+  }
+  .video-txt {
+    font-size: 20px;
+    margin-top: 26px;
+    margin-bottom: 0.75rem;
+    padding-top: 20px;
+  }
+
+  .colorBaner{
+    padding-top: -48px;
+  }
+
+  /* IA Mulher*/
+  video{
+    width: 300px;
+    height: 177px;
+    margin-bottom: -29px;
+    padding-bottom: 4px;
+  }
+
+  /* IA Mulher*/
+  
+    .color-2 {
+      background-image: url("../img/mulher-usando-simulador-de-realidade-virtual-mobile.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 62px 16px;
+      height: 100vh;
+      /* padding: 62px 16px; */
+    }
+  .vision{
+    margin-top: -59px;
+   display: block;
+    width: 100%; 
+    height: 100vh;
+    
+  }
+  .benner-meio{
+    padding: 1px;
+    padding-top: 2px;
+    margin: -3px;
+    margin-bottom: 15px;
+  }
+
+  .ia-txt {
+    width: 100%; 
+    font-size: 14px;
+    margin-top: -4px;
+    margin-bottom: 0.25rem;
+    padding-top: 3px;
+  }
+
+  /* Logos img*/
+  .txt-banner{
+    font-size: 16px;
+  }
+  .img-mob{
+    display: none;
+  }
+  .baner-center{
+    width: 100%;
+    flex-wrap: wrap;
+  }
    /* Imagem D3 */
-   
    .container{
     flex-wrap: nowrap;
     flex-direction: column-reverse;
