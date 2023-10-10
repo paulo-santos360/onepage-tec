@@ -1,7 +1,7 @@
 # Projeto de Exemplo: Desbravando o Futuro da Tecnologia 🚀
 
-![Imagem do Projeto](![template](https://github.com/paulo-santos360/onepage-tec/assets/102436341/39532b7c-ab3f-49d0-9e2a-c5bd57b4da41)
-)
+![Imagem do Projeto]![template](https://github.com/paulo-santos360/onepage-tec/assets/102436341/39532b7c-ab3f-49d0-9e2a-c5bd57b4da41)
+
 
 Bem-vindo ao nosso emocionante projeto de demonstração que visa explorar o futuro da tecnologia e como ela está moldando o nosso mundo. Este repositório contém o código-fonte de uma página da web interativa que destaca várias facetas do mundo tecnológico.
 
