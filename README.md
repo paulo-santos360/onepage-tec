@@ -9,7 +9,7 @@ Nossa missão é conectar o mundo digital e empurrar os limites da inovação te
 ## Pré-Visualização 📸
 
 ![Pagination Complete Preview](
-img/gif.video.gif
+img/template.mp4
 )
 
 ### Recursos Destacados 🌟
