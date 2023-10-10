@@ -227,7 +227,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   align-content: flex-start;
-  width: 80%;
+  width: 100%;
   height: 450px;
   margin: 0 auto;
   flex-direction: row;
@@ -462,6 +462,15 @@ footer h2 {
 }
 
 @media screen and (max-width: 800px) {
+
+  /* Baner topo */
+  .section-center {
+    background-image: url("../img/homemtec-mobile.jpg");
+  }
+
+  .FlexContainer div{
+    left: 17px;
+  }
 
   /* Video */
   .container-video{
