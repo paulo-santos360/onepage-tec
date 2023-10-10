@@ -6,6 +6,12 @@ Bem-vindo ao nosso emocionante projeto de demonstração que visa explorar o fut
 
 Nossa missão é conectar o mundo digital e empurrar os limites da inovação tecnológica. Este projeto demonstra como a tecnologia está impactando nossas vidas e como estamos nos preparando para um futuro mais inteligente, eficiente e conectado.
 
+## Pré-Visualização 📸
+
+![Pagination Complete Preview](
+img/gif.video.gif
+)
+
 ### Recursos Destacados 🌟
 
 - **Navbar Responsiva:** Navegue facilmente pelas seções do projeto.
