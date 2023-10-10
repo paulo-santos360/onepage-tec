@@ -6,6 +6,7 @@
   --clr-primary-2: #d600ef;
   --clr-primary-3: #23072f;
   --clr-primary-4: #ffffff;
+  --clr-primary-5: #2a3145;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
@@ -35,9 +36,6 @@ ul {
 a {
   text-decoration: none;
 }
-/* img:not(.logo) {
-  width: 100%;
-} */
 
 img {
   display: block;
@@ -67,20 +65,19 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
 }
 
 h1 {
   line-height: 1;
   font-size: 30px;
   text-transform: uppercase;
-  color: #d600ef;
+  color: var(--clr-primary-2);
 }
 h2 {
-  color: #ffffff;
+  color: var(--clr-primary-4);
 }
 p {
-  color: #ffffff;
+  color: var(--clr-primary-4);
 }
 
 /* Navbar*/
@@ -256,7 +253,7 @@ video {
   padding: 50px 50px;
 }
 .benner-meio {
-  background-color: #2a3145;
+  background-color: var(--clr-primary-5);
   opacity: 0.5;
   margin: 10px;
   padding: 20px;
@@ -264,7 +261,7 @@ video {
 
 /* Galerias Logos */
 .txt-banner {
-  color: #ffffff;
+  color: var(--clr-primary-4);
   text-align: center;
   padding-top: 70px;
 }
@@ -298,8 +295,8 @@ video {
   padding-bottom: 20px;
 }
 .accordion {
-  background-color: #140310;
-  color: #d600ef;
+  background-color: var(--clr-primary-1);
+  color: var(--clr-primary-2);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -314,7 +311,7 @@ video {
   padding: 0 18px;
   display: none;
   background: linear-gradient(to right, #23072f, #140310);
-  color: #ffffff;
+  color: var(--clr-primary-4);
   overflow: hidden;
 }
 
@@ -350,7 +347,7 @@ video {
 }
 
 .baner-end h3 {
-  color: #ffffff;
+  color: var(--clr-primary-4);
 }
 
 /* Footer */
@@ -387,7 +384,7 @@ footer h2 {
   text-align: center;
   line-height: 40px;
   font-size: 20px;
-  color: #fff;  
+  color: var(--clr-primary-4);  
   background-color: var(--clr-primary-2);
   transition: background-color 0.5s;
 }
@@ -419,17 +416,7 @@ footer h2 {
     padding: 0;
     background: transparent;
   }
-  .social-icons {
-    display: flex;
-  }
-  .social-icons a {
-    margin: 0 0.5rem;
-    color: var(--clr-primary-5);
-    transition: var(--transition);
-  }
-  .social-icons a:hover {
-    color: var(--clr-primary-7);
-  }
+ 
 }
 
 @media screen and (max-width: 800px) {
